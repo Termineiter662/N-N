@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: myunihub-playwright
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
